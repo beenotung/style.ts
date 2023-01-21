@@ -1,7 +1,7 @@
 {
   "name": "style.ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple css-in-js library that works in both browser and node.js.",
   "keywords": [
     "style",
     "css-in-js",
@@ -13,13 +13,18 @@
     "ssg",
     "typescript"
   ],
-  "author": {
-    "name": "Beeno Tung",
-    "email": "aabbcc1241@yahoo.com.hk",
-    "url": "https://beeno-tung.surge.sh"
-  },
+  "author": "Beeno Tung <aabbcc1241@yahoo.com.hk> (https://beeno-tung.surge.sh)",
   "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/style.ts.git"
+  },
+  "homepage": "https://github.com/beenotung/style.ts#readme",
+  "bugs": {
+    "url": "https://github.com/beenotung/style.ts/issues"
+  },
   "main": "dist/core.js",
+  "types": "./dist/core.d.ts",
   "files": [
     "dist/core.js"
   ],
