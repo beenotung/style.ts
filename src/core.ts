@@ -66,18 +66,14 @@ ${this.innerHTML}
   }
 }
 
-type StyleFn = (selector: string) => string
-
-export type Options = {
-  prefix?: string
-}
+export type StyleFn = (selector: string) => string
 
 // prefix -> Context instance
 let contexts: Map<string, Context> = new Map()
 
 export function toClassName(
-  fn: (selector: string) => string,
-  options?: Options,
+  fn: StyleFn,
+  options?: { prefix?: string },
 ): string {
   let prefix = options?.prefix || defaultPrefix
   let context = contexts.get(prefix)
