@@ -2,6 +2,23 @@
   "name": "style.ts",
   "version": "1.0.0",
   "description": "",
+  "keywords": [
+    "style",
+    "css-in-js",
+    "simplicity",
+    "minimal",
+    "isomorphic",
+    "ssr",
+    "csr",
+    "ssg",
+    "typescript"
+  ],
+  "author": {
+    "name": "Beeno Tung",
+    "email": "aabbcc1241@yahoo.com.hk",
+    "url": "https://beeno-tung.surge.sh"
+  },
+  "license": "BSD-2-Clause",
   "main": "dist/core.js",
   "files": [
     "dist/core.js"
@@ -11,9 +28,6 @@
     "test": "tsc --noEmit",
     "build": "tsc -p ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.11.18",
     "esbuild": "^0.16.9",
