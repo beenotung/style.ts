@@ -1,6 +1,6 @@
 {
   "name": "style.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple css-in-js library that works in both browser and node.js.",
   "keywords": [
     "style",
