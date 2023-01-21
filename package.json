@@ -29,6 +29,8 @@
     "dist/core.js"
   ],
   "scripts": {
+    "preversion": "npm test",
+    "prepublishOnly": "npm run build",
     "serve": "esbuild src/test/browser.ts --bundle --serve=localhost:8200",
     "test": "tsc --noEmit",
     "build": "tsc -p ."
